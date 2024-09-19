@@ -1,0 +1,49 @@
+.navbar_main {
+  width: 100%;
+  height: 100%;
+  background: #18191b;
+  border-top: 1px solid #6e6e6e;
+  /* font-family: "Lato", system-ui; */
+}
+.navbar_container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar_title h1 {
+  border-bottom: 1px solid grey;
+  letter-spacing: 10px;
+  width: 200px;
+  margin: 10px;
+  color: #fff;
+}
+.navbar_title p {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato", system-ui;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  position: -webkit-sticky;
+}
+.Link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Lato", system-ui;
+  font-size: 15px;
+  letter-spacing: 5px;
+}

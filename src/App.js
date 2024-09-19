@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Home from "./Page/Home";
+import LivingRoom from "./Page/LivingRoom";
+import BedRoom from "./Page/BedRoom";
+import BathRooms from "./Page/BathRooms";
+import Closets from "./Page/Closets";
+import Kitchens from "./Page/Kitchens";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Advert } from "./components/Advert/Advert";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Advert />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="livingroom" element={<LivingRoom />} />
+        <Route path="bedroom" element={<BedRoom />} />
+        <Route path="bathroom" element={<BathRooms />} />
+        <Route path="closet" element={<Closets />} />
+        <Route path="kitchen" element={<Kitchens />} />
+      </Routes>
+    </>
   );
 }
 
