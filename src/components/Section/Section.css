@@ -1,0 +1,52 @@
+.SectionMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.SectionContainer {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 2rem;
+}
+.SectionTag {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.SectionTag h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.SectionTag p {
+  width: 100%;
+  font-size: 15px;
+}
+.SectionIcon {
+  font-size: 50px;
+}
+.SectiionTitle {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.SectiionTitle p {
+  width: 100%;
+  font-size: 18px;
+}
+.SectionTitleIcon {
+  font-size: 40px;
+}
