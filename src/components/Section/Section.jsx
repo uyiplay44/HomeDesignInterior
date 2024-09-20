@@ -16,7 +16,7 @@ export default function Section() {
             Our secret to great bathrooms and kitchens lie in functional
             layouts. Your needs come first.
           </p>
-          <button>
+          <button className="SectionBtn">
             Hire Us Now <FaArrowRight />
           </button>
         </div>
@@ -27,7 +27,7 @@ export default function Section() {
             Our design solutions are tailored made for each client/project. It
             is never a one size fits all. Whatever the style or preference.
           </p>
-          <button>
+          <button className="SectionTitleBtn">
             Discover <FaArrowRight />
           </button>
         </div>
@@ -38,7 +38,7 @@ export default function Section() {
             We major in creating highly personalized closets and wardrobes. We
             think of a place for everything and everything in its place.
           </p>
-          <button>
+          <button className="SectionBtn">
             View Our Projects <FaArrowRight />
           </button>
         </div>

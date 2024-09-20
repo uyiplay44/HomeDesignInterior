@@ -1,0 +1,40 @@
+/* ::background: #18191b; */
+
+.visionMain {
+  background: #18191b;
+  width: 100%;
+  height: 100%;
+}
+.visionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.visionGrid {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.visionTitle {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  color: #fff;
+}
+.visionTitle h1 {
+  font-size: 30px;
+}
+.visionTitle p {
+  width: 420px;
+  font-family: "Lato", system-ui;
+
+  font-size: 20px;
+}
+.visionIcon {
+  font-size: 50px;
+}

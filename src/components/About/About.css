@@ -1,0 +1,30 @@
+.AboutMain {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+.AboutContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+.AboutTitle h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.AboutImg {
+  width: 540px;
+}
+.AboutContent p {
+  width: 500px;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Lato", system-ui;
+  font-weight: 300;
+}

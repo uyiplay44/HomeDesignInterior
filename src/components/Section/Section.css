@@ -29,10 +29,12 @@
 .SectionTag h1 {
   font-size: 30px;
   text-transform: uppercase;
+  font-family: "Lato", system-ui;
 }
 .SectionTag p {
   width: 100%;
   font-size: 15px;
+  font-family: "Lato", system-ui;
 }
 .SectionIcon {
   font-size: 50px;
@@ -46,7 +48,32 @@
 .SectiionTitle p {
   width: 100%;
   font-size: 18px;
+  font-family: "Lato", system-ui;
 }
 .SectionTitleIcon {
   font-size: 40px;
+}
+.SectionBtn {
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #f0eeee;
+  font-family: "Lato", system-ui;
+  font-size: 20px;
+}
+.SectionTitleBtn {
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #000000;
+  color: #fff;
+  border: 1px solid #f0eeee;
+  font-family: "Lato", system-ui;
+  font-size: 20px;
 }
