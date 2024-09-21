@@ -1,0 +1,26 @@
+.ShowroomMain {
+  width: 100%;
+  background: #161616;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ShowroomMain h1 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.ShowroomContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+  margin: auto;
+}
+.ShowroomImg img {
+  width: 100%;
+}

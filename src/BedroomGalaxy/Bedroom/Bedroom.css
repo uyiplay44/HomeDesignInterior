@@ -1,0 +1,37 @@
+.BedroomTitle {
+  width: 100%;
+  height: 100%;
+  background: #161616;
+  padding-bottom: 30px;
+}
+
+.BedroomMain {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+.BedroomContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 302px) and (max-width: 968px) {
+  .BedroomMain {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .BedroomContainer img {
+    width: 100%;
+    height: 100%;
+  }
+}

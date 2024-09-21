@@ -1,0 +1,26 @@
+.LivingMain {
+  width: 100%;
+  height: 100%;
+  background: #161616;
+  padding-bottom: 30px;
+}
+.LivingMain h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Lato", system-ui;
+}
+.LivingImg img {
+  width: 100%;
+}
+.LivingContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 2rem;
+}

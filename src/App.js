@@ -7,6 +7,7 @@ import Closets from "./Page/Closets";
 import Kitchens from "./Page/Kitchens";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Advert } from "./components/Advert/Advert";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="closet" element={<Closets />} />
         <Route path="kitchen" element={<Kitchens />} />
       </Routes>
+      <Footer />
     </>
   );
 }

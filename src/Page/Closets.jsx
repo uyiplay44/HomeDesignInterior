@@ -1,7 +1,12 @@
 import React from "react";
+import Closet from "../Closet/Closetroom/Closet";
 
 function Closets() {
-  return <div>Closets</div>;
+  return (
+    <div>
+      <Closet />
+    </div>
+  );
 }
 
 export default Closets;
